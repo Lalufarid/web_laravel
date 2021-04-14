@@ -1,0 +1,70 @@
+.jumbotron {
+	background-image: url(../img/sma2.jpeg);
+	background-size: cover;
+	height: 550px;
+	background-position: 0 -15px;
+	text-align: center;
+}
+.jumbotron .display-4 {
+	font-size: 34px;
+	color: black;
+	text-align: center;
+	margin-top: 100px;
+	font-family: arkhip;
+}
+.row h4{
+	font-family: arkhip;
+	color: #124f99;
+}
+.visi {
+	text-align: justify;
+}
+.garis {
+	width: 250px;
+	border: 2px solid;
+	color: #124f99;
+	margin-top: -2px;
+}
+.info-guru img {
+	width: 150px;
+	height: 160px;
+}
+.info-guru span {
+	margin-left: 8px;
+	text-align: justify;
+}
+.row .info-kegiatan a,p {
+	margin-left: 8px;
+	text-align: justify;
+}
+.bodi{
+	margin-top: -8px;
+  }
+@media (min-width: 992px) { 
+
+	.nav {
+		background-color: #124f99;
+	}
+    .navbar-brand, .nav-link{
+        color: black !important;
+        text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    }
+    .nav-link{
+        text-transform: uppercase;
+        margin-right: 30px;
+    }
+	.nav-link:hover::after {
+		content: '';
+		display: block;
+		border-bottom: 3px solid #124f99;
+		width: 50%;
+		margin: auto;
+		padding-bottom: 5px;
+		margin-bottom: -8px;
+	}
+	
+	.jumbotron .display-4 {
+		font-size: 64px;
+	}
+
+}
